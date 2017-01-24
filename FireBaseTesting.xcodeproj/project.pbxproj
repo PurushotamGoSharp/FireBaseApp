@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DDDF69487C4DDBA02D40963 /* libPods-FireBaseTestingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC3A1C0628792AC5CAF2BED /* libPods-FireBaseTestingTests.a */; };
+		3034FF5386B5CEF637EFC7AA /* libPods-FireBaseTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A9A59BDB9751E75D032F5 /* libPods-FireBaseTesting.a */; };
+		41978D2E0CEC076DC2E718CB /* libPods-FireBaseTestingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA12AC74AB03203D58545DF0 /* libPods-FireBaseTestingUITests.a */; };
+		CD4F28671E35F2FE00E1CA28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4F28661E35F2FE00E1CA28 /* GoogleService-Info.plist */; };
 		CD7FA1501E35C10500A5ABF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FA14F1E35C10500A5ABF9 /* main.m */; };
 		CD7FA1531E35C10500A5ABF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FA1521E35C10500A5ABF9 /* AppDelegate.m */; };
 		CD7FA1561E35C10500A5ABF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FA1551E35C10500A5ABF9 /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		CD7FA15E1E35C10500A5ABF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7FA15C1E35C10500A5ABF9 /* LaunchScreen.storyboard */; };
 		CD7FA1691E35C10500A5ABF9 /* FireBaseTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FA1681E35C10500A5ABF9 /* FireBaseTestingTests.m */; };
 		CD7FA1741E35C10500A5ABF9 /* FireBaseTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FA1731E35C10500A5ABF9 /* FireBaseTestingUITests.m */; };
+		CDC9853C1E3730C800C55526 /* ModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9853B1E3730C800C55526 /* ModelData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33BB3E9BF9BE91C4AAAC9603 /* Pods-FireBaseTestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTestingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTestingTests/Pods-FireBaseTestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		45A26885BA9EEB493A137796 /* Pods-FireBaseTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTesting/Pods-FireBaseTesting.release.xcconfig"; sourceTree = "<group>"; };
+		460E7DF1F10AD958A58F19C7 /* Pods-FireBaseTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTesting/Pods-FireBaseTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		8680AB99A832A45AF5ED1370 /* Pods-FireBaseTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTestingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTestingUITests/Pods-FireBaseTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA12AC74AB03203D58545DF0 /* libPods-FireBaseTestingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBaseTestingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC3A1C0628792AC5CAF2BED /* libPods-FireBaseTestingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBaseTestingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C210BB3A0B80A325A68E2C80 /* Pods-FireBaseTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTestingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTestingUITests/Pods-FireBaseTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4F28661E35F2FE00E1CA28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD7FA14B1E35C10500A5ABF9 /* FireBaseTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7FA14F1E35C10500A5ABF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD7FA1511E35C10500A5ABF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		CD7FA16F1E35C10500A5ABF9 /* FireBaseTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireBaseTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7FA1731E35C10500A5ABF9 /* FireBaseTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBaseTestingUITests.m; sourceTree = "<group>"; };
 		CD7FA1751E35C10500A5ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC9853A1E3730C800C55526 /* ModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelData.h; path = ../ModelData.h; sourceTree = "<group>"; };
+		CDC9853B1E3730C800C55526 /* ModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelData.m; path = ../ModelData.m; sourceTree = "<group>"; };
+		CDC9853D1E37510600C55526 /* FireBaseTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FireBaseTesting.entitlements; sourceTree = "<group>"; };
+		E47A9A59BDB9751E75D032F5 /* libPods-FireBaseTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireBaseTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37746A9DB14D55CDF55DFFF /* Pods-FireBaseTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseTestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseTestingTests/Pods-FireBaseTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3034FF5386B5CEF637EFC7AA /* libPods-FireBaseTesting.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDDF69487C4DDBA02D40963 /* libPods-FireBaseTestingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41978D2E0CEC076DC2E718CB /* libPods-FireBaseTestingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E4FE7BB08197A9F0778848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				460E7DF1F10AD958A58F19C7 /* Pods-FireBaseTesting.debug.xcconfig */,
+				45A26885BA9EEB493A137796 /* Pods-FireBaseTesting.release.xcconfig */,
+				F37746A9DB14D55CDF55DFFF /* Pods-FireBaseTestingTests.debug.xcconfig */,
+				33BB3E9BF9BE91C4AAAC9603 /* Pods-FireBaseTestingTests.release.xcconfig */,
+				C210BB3A0B80A325A68E2C80 /* Pods-FireBaseTestingUITests.debug.xcconfig */,
+				8680AB99A832A45AF5ED1370 /* Pods-FireBaseTestingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABDB959D3F816CE12B9D5BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47A9A59BDB9751E75D032F5 /* libPods-FireBaseTesting.a */,
+				BFC3A1C0628792AC5CAF2BED /* libPods-FireBaseTestingTests.a */,
+				AA12AC74AB03203D58545DF0 /* libPods-FireBaseTestingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD7FA1421E35C10500A5ABF9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				CD7FA1671E35C10500A5ABF9 /* FireBaseTestingTests */,
 				CD7FA1721E35C10500A5ABF9 /* FireBaseTestingUITests */,
 				CD7FA14C1E35C10500A5ABF9 /* Products */,
+				44E4FE7BB08197A9F0778848 /* Pods */,
+				ABDB959D3F816CE12B9D5BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,15 @@
 		CD7FA14D1E35C10500A5ABF9 /* FireBaseTesting */ = {
 			isa = PBXGroup;
 			children = (
+				CDC9853D1E37510600C55526 /* FireBaseTesting.entitlements */,
+				CD4F28661E35F2FE00E1CA28 /* GoogleService-Info.plist */,
 				CD7FA1511E35C10500A5ABF9 /* AppDelegate.h */,
 				CD7FA1521E35C10500A5ABF9 /* AppDelegate.m */,
 				CD7FA1541E35C10500A5ABF9 /* ViewController.h */,
 				CD7FA1551E35C10500A5ABF9 /* ViewController.m */,
 				CD7FA1571E35C10500A5ABF9 /* Main.storyboard */,
+				CDC9853A1E3730C800C55526 /* ModelData.h */,
+				CDC9853B1E3730C800C55526 /* ModelData.m */,
 				CD7FA15A1E35C10500A5ABF9 /* Assets.xcassets */,
 				CD7FA15C1E35C10500A5ABF9 /* LaunchScreen.storyboard */,
 				CD7FA15F1E35C10500A5ABF9 /* Info.plist */,
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD7FA1781E35C10500A5ABF9 /* Build configuration list for PBXNativeTarget "FireBaseTesting" */;
 			buildPhases = (
+				DF3E1653BA97699724E46E46 /* [CP] Check Pods Manifest.lock */,
 				CD7FA1471E35C10500A5ABF9 /* Sources */,
 				CD7FA1481E35C10500A5ABF9 /* Frameworks */,
 				CD7FA1491E35C10500A5ABF9 /* Resources */,
+				F9754A9E2E395D65FF70CAB9 /* [CP] Embed Pods Frameworks */,
+				D43E6B8ED0BA77210E74969E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD7FA17B1E35C10500A5ABF9 /* Build configuration list for PBXNativeTarget "FireBaseTestingTests" */;
 			buildPhases = (
+				6764D680518E7A97BBD7FA50 /* [CP] Check Pods Manifest.lock */,
 				CD7FA1601E35C10500A5ABF9 /* Sources */,
 				CD7FA1611E35C10500A5ABF9 /* Frameworks */,
 				CD7FA1621E35C10500A5ABF9 /* Resources */,
+				E19FD206C146A89E025F7EAA /* [CP] Embed Pods Frameworks */,
+				F058A1FFB9F7456B2523FEC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD7FA17E1E35C10500A5ABF9 /* Build configuration list for PBXNativeTarget "FireBaseTestingUITests" */;
 			buildPhases = (
+				D4CAEBCD1E1DCE0D59E2E495 /* [CP] Check Pods Manifest.lock */,
 				CD7FA16B1E35C10500A5ABF9 /* Sources */,
 				CD7FA16C1E35C10500A5ABF9 /* Frameworks */,
 				CD7FA16D1E35C10500A5ABF9 /* Resources */,
+				BA032243D832A57975957CDE /* [CP] Embed Pods Frameworks */,
+				160D1F041F1AF7BD782C0BCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +268,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = QGMN7468R5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					CD7FA1631E35C10500A5ABF9 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -250,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7FA15E1E35C10500A5ABF9 /* LaunchScreen.storyboard in Resources */,
+				CD4F28671E35F2FE00E1CA28 /* GoogleService-Info.plist in Resources */,
 				CD7FA15B1E35C10500A5ABF9 /* Assets.xcassets in Resources */,
 				CD7FA1591E35C10500A5ABF9 /* Main.storyboard in Resources */,
 			);
@@ -271,12 +336,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		160D1F041F1AF7BD782C0BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTestingUITests/Pods-FireBaseTestingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6764D680518E7A97BBD7FA50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA032243D832A57975957CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTestingUITests/Pods-FireBaseTestingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43E6B8ED0BA77210E74969E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTesting/Pods-FireBaseTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CAEBCD1E1DCE0D59E2E495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3E1653BA97699724E46E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E19FD206C146A89E025F7EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTestingTests/Pods-FireBaseTestingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F058A1FFB9F7456B2523FEC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTestingTests/Pods-FireBaseTestingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9754A9E2E395D65FF70CAB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireBaseTesting/Pods-FireBaseTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD7FA1471E35C10500A5ABF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD7FA1561E35C10500A5ABF9 /* ViewController.m in Sources */,
+				CDC9853C1E3730C800C55526 /* ModelData.m in Sources */,
 				CD7FA1531E35C10500A5ABF9 /* AppDelegate.m in Sources */,
 				CD7FA1501E35C10500A5ABF9 /* main.m in Sources */,
 			);
@@ -425,30 +629,37 @@
 		};
 		CD7FA1791E35C10500A5ABF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460E7DF1F10AD958A58F19C7 /* Pods-FireBaseTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireBaseTesting/FireBaseTesting.entitlements;
 				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = FireBaseTesting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmoksha.EmailTemplate.FireBaseTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vmoksha.bluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		CD7FA17A1E35C10500A5ABF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A26885BA9EEB493A137796 /* Pods-FireBaseTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireBaseTesting/FireBaseTesting.entitlements;
 				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = FireBaseTesting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmoksha.EmailTemplate.FireBaseTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vmoksha.bluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		CD7FA17C1E35C10500A5ABF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37746A9DB14D55CDF55DFFF /* Pods-FireBaseTestingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QGMN7468R5;
@@ -462,6 +673,7 @@
 		};
 		CD7FA17D1E35C10500A5ABF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BB3E9BF9BE91C4AAAC9603 /* Pods-FireBaseTestingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QGMN7468R5;
@@ -475,6 +687,7 @@
 		};
 		CD7FA17F1E35C10500A5ABF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C210BB3A0B80A325A68E2C80 /* Pods-FireBaseTestingUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = FireBaseTestingUITests/Info.plist;
@@ -487,6 +700,7 @@
 		};
 		CD7FA1801E35C10500A5ABF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8680AB99A832A45AF5ED1370 /* Pods-FireBaseTestingUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = FireBaseTestingUITests/Info.plist;
@@ -516,6 +730,7 @@
 				CD7FA17A1E35C10500A5ABF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD7FA17B1E35C10500A5ABF9 /* Build configuration list for PBXNativeTarget "FireBaseTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +739,7 @@
 				CD7FA17D1E35C10500A5ABF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD7FA17E1E35C10500A5ABF9 /* Build configuration list for PBXNativeTarget "FireBaseTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +748,7 @@
 				CD7FA1801E35C10500A5ABF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
